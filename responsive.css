@@ -1,0 +1,533 @@
+@media (max-width:767px) {
+    .main-header {
+        display: block;
+    }
+
+    .v-hidden {
+        opacity: 0;
+        height: 0;
+    }
+
+    .h-nav {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.5s ease-in-out;
+        overflow-x: auto;
+    }
+
+    .res-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 7vh;
+    }
+
+    .nav-bar {
+        margin-top: 10px;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .main-header .nav-bar ul li a {
+        text-decoration: none;
+        margin: 2vh 2vh;
+        font-size: 4.5vw;
+    }
+
+    .main-header .nav-bar ul li:nth-child(1) a::before {
+        margin: 0.2vh 0;
+        width: 5.3vh;
+    }
+
+    .main-header .nav-bar ul li:nth-child(2) a::before {
+        margin: 0.2vh 0;
+    }
+
+    .main-header .nav-bar ul li:nth-child(3) a::before {
+        margin: 0.2vh 0;
+    }
+    .main-header .nav-bar ul li:nth-child(4) a::before {
+        margin: 0.2vh 0;
+    }
+    .main-header .nav-bar ul li:nth-child(5) a::before {
+        margin: 0.2vh 0;
+    }
+    .main-header .nav-bar ul li:nth-child(6) a::before {
+        margin: 0.2vh 0;
+    }
+
+    .main-header .nav-bar ul li:nth-child(2):hover a::before {
+        opacity: 1;
+        width: 10vh;
+    }
+    
+    .main-header .nav-bar ul li:nth-child(3):hover a::before {
+        opacity: 1;
+        width: 5vh;
+    }
+    
+    .main-header .nav-bar ul li:nth-child(4):hover a::before {
+        opacity: 1;
+        width: 5.8vh;
+    }
+    
+    .main-header .nav-bar ul li:nth-child(5):hover a::before {
+        opacity: 1;
+        width: 4vh;
+    }
+    
+    .main-header .nav-bar ul li:nth-child(6):hover a::before {
+        opacity: 1;
+        width: 7vh;
+    }
+
+    .main .hero-section h1 {
+        font-size: 7vh;
+    }
+
+    main .hero-section p {
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    .nav-search-bar input {
+        background-color: #333;
+        color: white;
+        outline: 0;
+        border: 0;
+        text-align: center;
+        height: 6vh;
+        width: 45vw;
+        font-size: 1.6vh;
+        margin-top: 3vh;
+    }
+
+    .nav-search-bar #nav-btn {
+        height: 6vh;
+        width: 18vw;
+        margin-top: 3vh;
+    }
+
+    .main .hero-section #hero-section-btn {
+        font-size: 2.5vh;
+        height: 6.8vh;
+        width: 37vw;
+    }
+
+    .box-sec-hero h2 {
+        font-size: 1.5vh;
+    }
+
+    .popular-d-boxes {
+        margin-top: 6vh;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .popular-d-boxes .imgbox {
+        height: 30vh;
+        width: 77vw;
+    }
+
+    .imgbox .imgbox-text #imgbox-1 {
+        width: 26.2vw;
+    }
+
+    .popular-d {
+        height: 200vh;
+    }
+
+
+    .ttpackagesboxes {
+        flex-direction: column;
+    }
+
+    .ttpackagesboxes .tt-box {
+        margin-top: 5vh;
+        height: 70vh;
+        width: 77vw;
+    }
+
+    .ttpackages {
+        height: 350vh;
+    }
+
+    .tt-box-main-button #tt-box-btn {
+        width: 22.2vw;
+    }
+
+
+    .ff-section .ff-section-text h1 {
+        font-size: 5vh;
+    }
+
+    .ff-section .ff-section-text p {
+        font-size: 2.4vh;
+    }
+
+    .ff-section .ff-section-hc {
+        flex-direction: column;
+        gap: 6vh;
+        margin-top: 40px;
+    }
+
+
+    .ff-section {
+        height: 75vh;
+    }
+
+    .ff-section .ff-section-hc h1 {
+        font-size: 8vw;
+    }
+
+    .hotels-rooms-box {
+        flex-direction: column;
+    }
+
+    .hotels-rooms {
+        height: 335vh;
+    }
+
+    .hotels-rooms .hotels-rooms-box .hr-box {
+        height: 68vh;
+        width: 90vw;
+    }
+
+    .hotels-rooms-button #hotels-rooms-btn {
+        width: 23.2vw;
+    }
+
+    .hotels-rooms-main-rate-texts p {
+        font-size: 2vh;
+    }
+
+    .t-a-section-boxes {
+        flex-direction: column;
+    }
+
+    .t-a-section {
+        height: 255vh;
+    }
+
+    .t-a-section-boxes .t-a-section-box {
+        height: 68vh;
+        width: 90vw;
+    }
+
+    .contact-form input {
+        height: 8vh;
+        width: 78vw;
+    }
+
+    .contact-form textarea {
+        height: 14.7vh;
+        width: 78vw;
+    }
+
+
+    .box-sec-hero {
+        display: none;
+    }
+    
+    .main-header .main-header-logo img {
+        width: 27vw;
+    }
+
+    .res-nav i {
+        font-size: 3vh;
+        display: block;
+        margin-right: 20px;
+    }
+
+    .contact-form #contact-form-btn {
+        background-color: rgb(237, 66, 77);
+        height: 7vh;
+        width: 50vw;
+    }
+
+    .footer-text-1 h2 {
+        font-size: 1.9vh;
+    }
+
+    .footer-text-1 p {
+        font-size: 1.5vh;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:900px){
+    .main-header {
+        display: block;
+    }
+
+    .v-hidden {
+        opacity: 0;
+        height: 0;
+    }
+
+    .h-nav {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.5s ease;
+        overflow-x: auto;
+    }
+
+    .res-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 7vh;
+    }
+
+    .nav-bar {
+        margin-top: 10px;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .main-header .nav-bar ul li a {
+        text-decoration: none;
+        margin: 2vh 2vh;
+        font-size: 4.5vw;
+    }
+
+    .main-header .nav-bar ul li:nth-child(1) a::before {
+        margin: 2.5vh 0;
+        width: 12.9vh;
+    }
+
+    .main-header .nav-bar ul li:nth-child(2) a::before {
+        margin: 2.5vh 0;
+    }
+
+    .main-header .nav-bar ul li:nth-child(3) a::before {
+        margin: 2.5vh 0;
+    }
+    .main-header .nav-bar ul li:nth-child(4) a::before {
+        margin: 2.5vh 0;
+    }
+    .main-header .nav-bar ul li:nth-child(5) a::before {
+        margin: 2.5vh 0;
+    }
+    .main-header .nav-bar ul li:nth-child(6) a::before {
+        margin: 2.5vh 0;
+    }
+
+    .main-header .nav-bar ul li:nth-child(2):hover a::before {
+        opacity: 1;
+        width: 27vh;
+    }
+    
+    .main-header .nav-bar ul li:nth-child(3):hover a::before {
+        opacity: 1;
+        width: 12vh;
+    }
+    
+    .main-header .nav-bar ul li:nth-child(4):hover a::before {
+        opacity: 1;
+        width: 14vh;
+    }
+    
+    .main-header .nav-bar ul li:nth-child(5):hover a::before {
+        opacity: 1;
+        width: 10vh;
+    }
+    
+    .main-header .nav-bar ul li:nth-child(6):hover a::before {
+        opacity: 1;
+        width: 18vh;
+    }
+
+    .main .hero-section h1 {
+        font-size: 7vh;
+    }
+
+    main .hero-section p {
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    .nav-search-bar input {
+        background-color: #333;
+        color: white;
+        outline: 0;
+        border: 0;
+        text-align: center;
+        height: 6vh;
+        width: 45vw;
+        font-size: 1.6vh;
+        margin-top: 3vh;
+    }
+
+    .nav-search-bar #nav-btn {
+        height: 6vh;
+        width: 18vw;
+        margin-top: 3vh;
+    }
+
+    .main .hero-section #hero-section-btn {
+        font-size: 2.5vh;
+        height: 6.8vh;
+        width: 37vw;
+    }
+
+    .box-sec-hero h2 {
+        font-size: 1.5vh;
+    }
+
+    .popular-d-boxes {
+        margin-top: 6vh;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .popular-d-boxes .imgbox {
+        height: 30vh;
+        width: 77vw;
+    }
+
+    .imgbox .imgbox-text #imgbox-1 {
+        width: 26.2vw;
+    }
+
+    .popular-d {
+        height: 200vh;
+    }
+
+
+    .ttpackagesboxes {
+        flex-direction: column;
+    }
+
+    .ttpackagesboxes .tt-box {
+        margin-top: 5vh;
+        height: 70vh;
+        width: 77vw;
+    }
+
+    .ttpackages {
+        height: 350vh;
+    }
+
+    .tt-box-main-button #tt-box-btn {
+        width: 22.2vw;
+    }
+
+
+    .ff-section .ff-section-text h1 {
+        font-size: 5vh;
+    }
+
+    .ff-section .ff-section-text p {
+        font-size: 2.4vh;
+    }
+
+    .ff-section .ff-section-hc {
+        flex-direction: column;
+        gap: 6vh;
+        margin-top: 40px;
+    }
+
+
+    .ff-section {
+        height: 99vh;
+    }
+
+    .ff-section .ff-section-hc h1 {
+        font-size: 8vw;
+    }
+
+    .hotels-rooms-box {
+        flex-direction: column;
+    }
+
+    .hotels-rooms {
+        height: 335vh;
+    }
+
+    .hotels-rooms .hotels-rooms-box .hr-box {
+        height: 68vh;
+        width: 90vw;
+    }
+
+    .hotels-rooms-button #hotels-rooms-btn {
+        width: 23.2vw;
+    }
+
+    .hotels-rooms-main-rate-texts p {
+        font-size: 2vh;
+    }
+
+    .t-a-section-boxes {
+        flex-direction: column;
+    }
+
+    .t-a-section {
+        height: 209vh;
+    }
+
+    .t-a-section-boxes .t-a-section-box {
+        height: 55vh;
+        width: 68vw;
+    }
+
+    .contact-form input {
+        height: 8vh;
+        width: 78vw;
+    }
+
+    .contact-form textarea {
+        height: 14.7vh;
+        width: 78vw;
+    }
+
+
+    .box-sec-hero {
+        display: none;
+    }
+
+    .main-header .main-header-logo img {
+        width: 27vw;
+    }
+
+    .res-nav i {
+        font-size: 3vh;
+        display: block;
+        margin-right: 20px;
+    }
+
+    .contact-form #contact-form-btn {
+        background-color: rgb(237, 66, 77);
+        height: 7vh;
+        width: 50vw;
+    }
+
+    .footer-text-1 h2 {
+        font-size: 1.9vh;
+    }
+
+    .footer-text-1 p {
+        font-size: 1.5vh;
+    }
+
+}
